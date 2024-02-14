@@ -6,7 +6,7 @@ let gameWinState = false;
 
 let checkGameState = (arr) => {
   if (JSON.stringify(arr) === finalState) {
-    window.location.replace("https://dejavublank.vercel.app/");
+    window.location.replace("https://deja-vu-blank.vercel.app/");
   }
 };
 
